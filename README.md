@@ -33,35 +33,15 @@ Prerequisites
 https://github.com/umbertoDifa/brain-project/blob/master/pipeline-manual.txt 
 
 
-End with an example of getting some data out of the system or using it for a little demo
-Running the tests
-
-Explain how to run the automated tests for this system
-Break down into end to end tests
-
-Explain what these tests test and why
-
-Give an example
-
-And coding style tests
-
-Explain what these tests test and why
-
-Give an example
-
-Deployment
-
-Add additional notes about how to deploy this on a live system
-Built With
-
-    Dropwizard - The web framework used
-    Maven - Dependency Management
-    ROME - Used to generate RSS Feeds
 
 ## Contributing
 
 See also the list of contributors who participated in this project.
-
+Mathew Yang (python, shell, and machine learning scripts) contact for questions: mathew.d.yang@gmail.com
+Luis Love (python and shell scripts)
+Chayant (CommDy author)
+Mengqi Xing (WLPI.m writer, provided EEG data for me)
+Tanya Berger-Wolf (servers and guidance)
 
 ## License
 
