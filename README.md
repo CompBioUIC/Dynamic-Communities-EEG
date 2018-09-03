@@ -12,19 +12,19 @@ Prerequisites
 
 ## Pipeline Steps
 This is a rough outline of the steps taken to produce this analysis.
-	1. Received .EDF files from experiment
-	2. On the brain server, do the following steps.
-	3. Run 'WPLI_mod.m' to convert .edf files into .mat files.
-	4. Use the 'mat2pair.sh' shell script to automatically run the 'convert_to_pair.m' script. This converts .mat files into .txt files		
-	5. Use python script 'convert_to_pair.py' to convert the saved .txt matrices into a .pair format
-	6. Separated the patient data into their own folders (needs automation)
-	7. Switch to Pachy server, transfer all data. Run the following steps.
-	8. Organize and put all data into labeled folders
-	9. Run the below steps by running bash Auto.sh
-	10. Run Louvain algorithm on each folder.
-	11. Run CommDy on each folder.*
-	12. Analyze with Rstats script.
-	13. Classify the files titled "*_ind_stat_c***.txt' using your preferred method (machine learning, etc.)
+1. Received .EDF files from experiment
+2. On the brain server, do the following steps.
+3. Run 'WPLI_mod.m' to convert .edf files into .mat files.
+4. Use the 'mat2pair.sh' shell script to automatically run the 'convert_to_pair.m' script. This converts .mat files into .txt files		
+5. Use python script 'convert_to_pair.py' to convert the saved .txt matrices into a .pair format
+6. Separated the patient data into their own folders (needs automation)
+7. Switch to Pachy server, transfer all data. Run the following steps.
+8. Organize and put all data into labeled folders
+9. Run the below steps by running bash Auto.sh
+10. Run Louvain algorithm on each folder.
+11. Run CommDy on each folder.*
+12. Analyze with Rstats script.
+13. Classify the files titled "*_ind_stat_c***.txt' using your preferred method (machine learning, etc.)
 
 *See umbertoDifa's [brain-project repository](https://github.com/umbertoDifa/brain-project/blob/master/pipeline-manual.txt) for instructions on how to run the CommDy algorithm.
 
