@@ -1,11 +1,9 @@
 # Dynamic-Communities-EEG
-
 Classifying generalized social anxiety disorder (gSAD) using dynamic community analysis of EEG signals.
 
 This repo contains the scripts needed to process raw EEG files (.edf) into a format that be used by static community (Louvain) and dynamic community (CommDy) algorithms. Scikit-learn machine learning algorithms are the final step used for classification of gSAD.
 
 ## Getting Started
-
 Prerequisites
 1) Raw EEG data (.edf files)
 2) A copy of the CommDy and Louvain codebase
@@ -13,8 +11,7 @@ Prerequisites
 4) Python 2.7 (for running CommDy) AND Python 3 (for running sci-kit learn)
 
 ## Pipeline Steps
-
-
+This is a rough outline of the steps taken to produce this analysis.
 	1. Received .EDF files from experiment
 	2. On the brain server, do the following steps.
 	3. Run 'WPLI_mod.m' to convert .edf files into .mat files.
@@ -29,19 +26,17 @@ Prerequisites
 	12. Analyze with Rstats script.
 	13. Classify the files titled "*_ind_stat_c***.txt' using your preferred method (machine learning, etc.)
 
-*See umbertoDifa's brain-project repository for instructions on how to run the CommDy algorithm.
-https://github.com/umbertoDifa/brain-project/blob/master/pipeline-manual.txt 
-
+*See umbertoDifa's [brain-project repository](https://github.com/umbertoDifa/brain-project/blob/master/pipeline-manual.txt) for instructions on how to run the CommDy algorithm.
 
 
 ## Contributing
 
 See also the list of contributors who participated in this project.
-Mathew Yang (python, shell, and machine learning scripts) contact for questions: mathew.d.yang@gmail.com
-Luis Love (python and shell scripts)
-Chayant (CommDy author)
-Mengqi Xing (WLPI.m writer, provided EEG data for me)
-Tanya Berger-Wolf (servers and guidance)
+* Mathew Yang (python, shell, and machine learning scripts) contact for questions: mathew.d.yang@gmail.com
+* Luis Love (python and shell scripts)
+* Chayant (CommDy author)
+* Mengqi Xing (WLPI.m writer, provided EEG data for me)
+* Tanya Berger-Wolf (servers and guidance)
 
 ## License
 
